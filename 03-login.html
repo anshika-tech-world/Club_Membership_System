@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <h1>Club Membership System</h1>
+
+            <ul>
+                <li><a href="01-index.html">Home</a></li>
+                <li><a href="02-register.html">Register</a></li>
+                <li><a href="03-login.html">Login</a></li>
+                <li><a href="04-activities.html">Activities</a></li>
+                <li><a href="05-members.html">Members</a></li>
+                <li><a href="06-dashboard.html">Dashboard</a></li>
+                <li><a href="07-requests.html">Requests</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Login Section -->
+    <main>
+        <section class="about">
+            <h2>Member Login</h2>
+
+            <form id="loginForm">
+
+                <label for="loginEmail">Email</label>
+                <input
+                    type="email"
+                    id="loginEmail"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <br><br>
+
+                <label for="loginPassword">Password</label>
+                <input
+                    type="password"
+                    id="loginPassword"
+                    placeholder="Enter your password"
+                    required
+                >
+
+                <br><br>
+
+                <button type="submit" class="btn">Login</button>
+
+            </form>
+
+            <p id="loginMessage"></p>
+
+            <p>
+                Don't have an account?
+                <a href="02-register.html">Register here</a>
+            </p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Club Membership System</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

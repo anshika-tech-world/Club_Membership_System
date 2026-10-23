@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Requests</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <h1>Club Membership System</h1>
+
+            <ul>
+                <li><a href="01-index.html">Home</a></li>
+                <li><a href="02-register.html">Register</a></li>
+                <li><a href="03-login.html">Login</a></li>
+                <li><a href="04-activities.html">Activities</a></li>
+                <li><a href="05-members.html">Members</a></li>
+                <li><a href="06-dashboard.html">Dashboard</a></li>
+                <li><a href="07-requests.html">Requests</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Requests Section -->
+    <main>
+        <section class="about">
+
+            <h2>Membership Requests</h2>
+
+            <p>Manage pending club membership requests.</p>
+
+            <br>
+
+            <table border="1" width="100%" cellpadding="10">
+
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Club</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody id="requestTable"></tbody>
+
+            </table>
+
+            <p id="requestMessage" class="form-message" aria-live="polite"></p>
+
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Club Membership System</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
